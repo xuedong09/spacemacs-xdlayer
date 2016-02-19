@@ -30,9 +30,7 @@
 ;;; Code:
 
 (defconst xdlayer-packages
-  '(
-    ;;ecb
-    switch-window
+  '(switch-window
     magit
     )
   "The list of Lisp packages required by the xdlayer layer.
@@ -62,8 +60,6 @@ Each entry is either:
       - A list beginning with the symbol `recipe' is a melpa
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
-(defun xdlayer/init-ecb ()
-  (use-package ecb))
 (defun xdlayer/init-switch-window ()
   (use-package switch-window))
 (defun xdlayer/init-magit ()
