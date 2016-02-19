@@ -30,7 +30,8 @@
 ;;; Code:
 
 (defconst xdlayer-packages
-  '(ecb
+  '(
+    ;;ecb
     switch-window
     magit
     )
