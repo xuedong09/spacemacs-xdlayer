@@ -33,6 +33,7 @@
   '(ecb
     switch-window
     magit
+    go-mode
     )
   "The list of Lisp packages required by the xdlayer layer.
 
@@ -67,5 +68,6 @@ Each entry is either:
   (use-package switch-window))
 (defun xdlayer/init-magit ()
   (use-package magit))
-
+(defun xdlayer/init-go-mode()
+  (use-package go-mode))
 ;;; packages.el ends here
